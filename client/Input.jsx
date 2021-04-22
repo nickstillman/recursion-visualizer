@@ -189,21 +189,7 @@ class Input extends Component {
   //   if (left) parens.push(...generateParentheses(num, str + '(', left - 1, right));
   //   if (left < right) parens.push(...generateParentheses(num, str + ')', left, right - 1));
   //   return parens;
-  // }
-  
-  
-  // function generateParentheses(maxToOpen, openNow = 0, current = '', results) {
-  //       if (!maxToOpen && !openNow) return [current];
-  //       const perms = [];
-  //       if (maxToOpen) {
-  //         perms.push(...generateParentheses(maxToOpen - 1, openNow + 1, `${current}(`, perms));
-  //       }
-  //       if (openNow) {
-  //         perms.push(...generateParentheses(maxToOpen, openNow - 1, `${current})`, perms));
-  //       }
-  //       return perms;
-  //     }
-  
+  // }  
   
   // function rockPaperScissors(num, currentSequence = []){
   //   if (num < 1) return [currentSequence];
